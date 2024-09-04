@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view3"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:scrollbars="vertical"
+        app:layoutManager="LinearLayoutManager" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <Button
+                android:id="@+id/backToManager"
+                android:layout_width="140dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="40dp"
+                android:text="Back"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                tools:layout_editor_absoluteY="0dp">
+
+            </Button>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
